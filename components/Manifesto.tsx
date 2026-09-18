@@ -4,7 +4,7 @@ export default function Manifesto() {
     <div className="manifesto">
       <p className="manifesto-q">"That government is best which governs least."</p>
       <p className="manifesto-attr">
-        — Henry David Thoreau &nbsp;·&nbsp;
+        Henry David Thoreau &nbsp;·&nbsp;
         <em
           style={{
             fontFamily: '"Cormorant Garamond", serif',

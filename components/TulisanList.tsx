@@ -3,7 +3,7 @@
 const tulisan = [
   {
     judul: 'Pasar Bebas dan Kolonialisme: Dua Hal yang Sengaja Disamakan?',
-    ringkasan: 'Artikel ini membantah persamaan sederhana antara kolonialisme dan kapitalisme pasar bebas melalui analisis historis dan telaah wacana kritis. Secara historis, perusahaan seperti VOC dan East India Company lahir dari hak monopoli yang diberikan negara — yang justru bertentangan dengan prinsip pasar bebas. Kualitas institusi pasca-kemerdekaan terbukti lebih menentukan trajektori pembangunan suatu negara.',
+    ringkasan: 'Artikel ini membantah persamaan sederhana antara kolonialisme dan kapitalisme pasar bebas melalui analisis historis dan telaah wacana kritis. Secara historis, perusahaan seperti VOC dan East India Company lahir dari hak monopoli yang diberikan negara, yang justru bertentangan dengan prinsip pasar bebas. Kualitas institusi pasca-kemerdekaan terbukti lebih menentukan trajektori pembangunan suatu negara.',
     penulis: 'Alviansyah Agung Masaputra',
     tanggal: '12 Juni 2026',
     sumber: 'https://medium.com/@alvian.ha21/pasar-bebas-dan-kolonialisme-dua-hal-yang-sengaja-disamakan-756452c8cee5',
@@ -42,7 +42,6 @@ export default function TulisanList() {
           </div>
           <div className="tulisan-card-footer">
             <span className="tulisan-penulis">{item.penulis}</span>
-            <span className="tulisan-arrow">→</span>
           </div>
         </a>
       ))}

@@ -59,10 +59,10 @@ export default function PetaBacaMap() {
   useEffect(() => {
     const LOCATIONS: Location[] = [
       { id:'start', type:'start', x:90, y:370, title:'Titik Berangkat', subtitle:'Awal perjalanan', kind:'Mulai',
-        desc:'Di sinilah setiap pembaca memulai. Belum ada yang perlu kamu pelajari di titik ini — cukup melangkah ke desa pertama.',
+        desc:'Di sinilah setiap pembaca memulai. Belum ada yang perlu kamu pelajari di titik ini, cukup melangkah ke desa pertama.',
         difficulty:null, time:null, learn:[], resources:[], prereq:[], unlocks:['n1'], alwaysDone:true },
       { id:'n1', type:'village', x:220, y:295, title:'Apa Itu Kebebasan?', subtitle:'John Stuart Mill', kind:'Konsep dasar',
-        desc:'Desa pertama dalam perjalananmu — tempat pertanyaan paling dasar tentang kebebasan individu dijawab.',
+        desc:'Desa pertama dalam perjalananmu: tempat pertanyaan paling dasar tentang kebebasan individu dijawab.',
         difficulty:'Pemula', time:'2–3 jam',
         learn:['Argumen dasar untuk kebebasan individu','Batas kekuasaan atas diri sendiri','Kenapa paksaan sosial juga perlu dibatasi'],
         resources:[{ a:'John Stuart Mill', t:'On Liberty', isbn:'9780140432077' }],
@@ -80,7 +80,7 @@ export default function PetaBacaMap() {
         resources:[{ a:'Frédéric Bastiat', t:'The Law', isbn:'9781610161046' }],
         prereq:['n2'], unlocks:['n4'] },
       { id:'n4', type:'village', x:555, y:400, title:'Bagaimana Pasar Bekerja?', subtitle:'Adam Smith & Henry Hazlitt', kind:'Konsep dasar',
-        desc:'Pasar desa yang ramai — tempat prinsip dasar ekonomi pasar dipraktikkan setiap hari.',
+        desc:'Pasar desa yang ramai: tempat prinsip dasar ekonomi pasar dipraktikkan setiap hari.',
         difficulty:'Pemula', time:'4–5 jam',
         learn:['Kenapa pertukaran sukarela menciptakan kemakmuran','Cara menilai efek jangka panjang, bukan cuma yang terlihat'],
         resources:[
@@ -95,11 +95,11 @@ export default function PetaBacaMap() {
         resources:[{ a:'Milton Friedman', t:'Capitalism and Freedom', isbn:'9780226264189' }],
         prereq:['n4'], unlocks:['port'] },
       { id:'port', type:'port', x:760, y:580, title:'Pelabuhan Percabangan', subtitle:'Pilih jalurmu', kind:'Percabangan',
-        desc:'Fondasi selesai. Dari pelabuhan ini kapal berangkat ke tiga pulau — kamu boleh mengunjungi lebih dari satu.',
+        desc:'Fondasi selesai. Dari pelabuhan ini kapal berangkat ke tiga pulau, kamu boleh mengunjungi lebih dari satu.',
         difficulty:null, time:null, learn:['Tiga kapal, tiga tradisi pemikiran menanti di seberang laut'],
         resources:[], prereq:['n5'], unlocks:['islandA','islandB','islandC'] },
       { id:'islandA', type:'island', branch:'klasik', x:975, y:270, title:'Pulau Liberalisme Klasik', subtitle:'3 pemikir', kind:'Topik besar',
-        desc:'Pulau besar dengan reruntuhan tua — tempat gagasan tentang hukum, konstitusi, dan masyarakat sipil tumbuh.',
+        desc:'Pulau besar dengan reruntuhan tua: tempat gagasan tentang hukum, konstitusi, dan masyarakat sipil tumbuh.',
         difficulty:'Menengah', time:'12–15 jam',
         learn:['Menjaga kebebasan individu sambil tetap punya pemerintahan yang sah','Rule of law dan pemerintahan konstitusional'],
         resources:[
@@ -119,7 +119,7 @@ export default function PetaBacaMap() {
         ],
         prereq:['port'], unlocks:['mountain'] },
       { id:'islandC', type:'island', branch:'ekonomi', x:958, y:690, title:'Pulau Ekonomi', subtitle:'3 pemikir', kind:'Topik besar',
-        desc:'Pulau dengan kilang dan pasar — untuk kamu yang ingin memahami mesin di balik gagasan.',
+        desc:'Pulau dengan kilang dan pasar: untuk kamu yang ingin memahami mesin di balik gagasan.',
         difficulty:'Menengah', time:'10–12 jam',
         learn:['Argumen ekonomi di balik filsafat politiknya','Kenapa harga membawa informasi, bukan sekadar angka'],
         resources:[
@@ -129,7 +129,7 @@ export default function PetaBacaMap() {
         ],
         prereq:['port'], unlocks:['mountain'] },
       { id:'mountain', type:'mountain', x:1290, y:250, title:'Gunung Perdebatan Besar', subtitle:'Kritik & tantangan', kind:'Topik lanjutan',
-        desc:'Pendakian yang menantang. Jangan berhenti sebelum sampai di sini — setiap gagasan layak diuji oleh lawannya.',
+        desc:'Pendakian yang menantang. Jangan berhenti sebelum sampai di sini. Setiap gagasan layak diuji oleh lawannya.',
         difficulty:'Lanjut', time:'8–10 jam',
         learn:['Kritik paling kuat terhadap hak milik pribadi','Bagaimana pihak yang kalah di pasar bebas diperlakukan','Kritik egalitarian atas kepemilikan diri'],
         resources:[
@@ -143,7 +143,7 @@ export default function PetaBacaMap() {
         difficulty:null, time:'Rutin bulanan', learn:['Ruang diskusi terbuka bersama pembaca lain'],
         resources:[], prereq:['mountain'], unlocks:['treasure'] },
       { id:'treasure', type:'treasure', x:1660, y:590, title:'Harta Karun', subtitle:'Kebebasan yang kamu temukan sendiri', kind:'Tujuan akhir',
-        desc:'Bukan emas. Harta di akhir peta ini adalah caramu sendiri berpikir tentang kebebasan — dan keberanian untuk terus mempertanyakannya.',
+        desc:'Bukan emas. Harta di akhir peta ini adalah caramu sendiri berpikir tentang kebebasan. Dan keberanian untuk terus mempertanyakannya.',
         difficulty:null, time:null, learn:['Cara berpikir yang bisa terus kamu pakai, jauh setelah peta ini selesai'],
         resources:[], prereq:['castle'], unlocks:[],
         cta:{ label:'Bergabung dengan komunitas', href:'https://indoliberty.site/#join' } },
@@ -435,7 +435,7 @@ export default function PetaBacaMap() {
       lightboxArt.innerHTML = `<img src="${coverSrc}" alt="" data-isbn="${r.isbn}" data-t="${r.t}" data-a="${r.a}" onerror="window.__pbCoverError(this)">
         <div class="pb-fallback-cover"><span class="pb-fallback-who">${r.a}</span><span class="pb-fallback-title">${r.t}</span></div>`
       if (noImg) lightboxArt.classList.add('pb-no-img')
-      lightboxCaption.textContent = `${r.a} — ${r.t}`
+      lightboxCaption.textContent = `${r.a}: ${r.t}`
       const driveUrl = GDRIVE_LINKS[r.isbn]
       if (driveUrl) { lightboxGdrive.href = driveUrl; lightboxGdrive.hidden = false }
       else lightboxGdrive.hidden = true

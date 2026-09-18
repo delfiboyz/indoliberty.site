@@ -5,7 +5,7 @@ export default function About() {
       <div>
         <div className="section-label">Tentang Kami</div>
         <blockquote className="pull-quote">
-          "Indonesia yang merdeka dimulai dari manusia yang
+          "Indonesia yang merdeka dimulai dari manusia yang{' '}
           <em>bebas</em> menentukan nasibnya sendiri."
         </blockquote>
       </div>
@@ -14,12 +14,12 @@ export default function About() {
         <p>
           <strong>Indonesian Liberty Society (ILS)</strong> adalah komunitas
           pemikiran yang mempromosikan nilai-nilai klasik liberal dan
-          libertarian dalam konteks Indonesia — kebebasan individu, pasar bebas,
+          libertarian dalam konteks Indonesia: kebebasan individu, pasar bebas,
           pemerintahan terbatas, dan supremasi hukum.
         </p>
         <p>
           Kami percaya kemakmuran sejati lahir ketika setiap orang diberi ruang
-          untuk berkembang sesuai pilihannya sendiri — bukan dari kontrol
+          untuk berkembang sesuai pilihannya sendiri, bukan dari kontrol
           birokrasi atau keputusan elit politik yang tidak akuntabel.
         </p>
         <p>

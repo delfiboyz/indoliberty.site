@@ -16,7 +16,7 @@ const misi = [
     nomor: '02',
     judul: 'Menyatukan Komunitas',
     deskripsi:
-      'Membangun jaringan pemikir, aktivis, dan warga yang berkomitmen terhadap kebebasan di seluruh penjuru Indonesia — dari Sabang sampai Merauke.',
+      'Membangun jaringan pemikir, aktivis, dan warga yang berkomitmen terhadap kebebasan di seluruh penjuru Indonesia, dari Sabang sampai Merauke.',
   },
   {
     nomor: '03',
@@ -43,7 +43,7 @@ export default function MisiVisi() {
     <main style={{ background: 'var(--black)', minHeight: '100vh', paddingTop: '120px' }}>
 
       {/* Header */}
-      <section style={{ padding: '80px 72px 64px', borderBottom: '1px solid rgba(250,250,247,0.07)' }}>
+      <section className="subpage-header">
         <div style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '24px' }}>
           Tentang Kami
         </div>
@@ -63,33 +63,35 @@ export default function MisiVisi() {
       </section>
 
       {/* Visi */}
-      <section style={{ padding: '96px 72px', borderBottom: '1px solid rgba(250,250,247,0.07)', display: 'grid', gridTemplateColumns: '1fr 2fr', gap: '80px', alignItems: 'start' }}>
-        <div>
-          <div style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '16px' }}>
-            Visi
+      <section className="misi-visi-section">
+        <div className="visi-grid">
+          <div>
+            <div style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '16px' }}>
+              Visi
+            </div>
+            <div style={{ width: '52px', height: '2px', background: 'var(--gold)' }} />
           </div>
-          <div style={{ width: '52px', height: '2px', background: 'var(--gold)' }} />
-        </div>
-        <div>
-          <p
-            style={{
-              fontFamily: '"Cormorant Garamond", serif',
-              fontSize: 'clamp(26px, 3vw, 40px)',
-              fontWeight: 300,
-              color: 'var(--white)',
-              lineHeight: 1.4,
-              letterSpacing: '-0.01em',
-            }}
-          >
-            Menyatukan dan memberdayakan kaum Libertarian di seluruh Indonesia dengan mempromosikan{' '}
-            <em style={{ fontStyle: 'italic', color: 'var(--gold)' }}>kebebasan individu</em>,
-            kerja sama sukarela, dan intervensi pemerintah yang minimal.
-          </p>
+          <div>
+            <p
+              style={{
+                fontFamily: '"Cormorant Garamond", serif',
+                fontSize: 'clamp(26px, 3vw, 40px)',
+                fontWeight: 300,
+                color: 'var(--white)',
+                lineHeight: 1.4,
+                letterSpacing: '-0.01em',
+              }}
+            >
+              Menyatukan dan memberdayakan kaum Libertarian di seluruh Indonesia dengan mempromosikan{' '}
+              <em style={{ fontStyle: 'italic', color: 'var(--gold)' }}>kebebasan individu</em>,
+              kerja sama sukarela, dan intervensi pemerintah yang minimal.
+            </p>
+          </div>
         </div>
       </section>
 
       {/* Misi */}
-      <section style={{ padding: '96px 72px 120px' }}>
+      <section className="misi-section">
         <div style={{ marginBottom: '64px' }}>
           <div style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '16px' }}>
             Misi

@@ -11,8 +11,8 @@ export default function Stats() {
         <div className="stat-l">Acara & Diskusi</div>
       </div>
       <div className="stat">
-        <div className="stat-n">0+</div>
-        <div className="stat-l">Artikel Diterbitkan</div>
+        <div className="stat-n">13</div>
+        <div className="stat-l">Bacaan Dikurasi</div>
       </div>
       <div className="stat">
         <div className="stat-n">1+</div>

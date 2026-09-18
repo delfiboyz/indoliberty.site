@@ -38,14 +38,14 @@ export default function Navbar() {
       </button>
 
       <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
-        <li><a href="#tentang" onClick={() => setIsOpen(false)}>Tentang</a></li>
+        <li><a href="/#tentang" onClick={() => setIsOpen(false)}>Tentang</a></li>
         <li><Link href="/isu" onClick={() => setIsOpen(false)}>Isu</Link></li>
         <li><Link href="/tulisan" onClick={() => setIsOpen(false)}>Tulisan</Link></li>
         <li><Link href="/peta-baca" onClick={() => setIsOpen(false)}>Peta Baca</Link></li>
-        <li><a href="#nilai" onClick={() => setIsOpen(false)}>Nilai</a></li>
-        <li><a href="#program" onClick={() => setIsOpen(false)}>Program</a></li>
+        <li><a href="/#nilai" onClick={() => setIsOpen(false)}>Nilai</a></li>
+        <li><a href="/#program" onClick={() => setIsOpen(false)}>Program</a></li>
         <li>
-          <a href="#join" className="nav-cta" onClick={() => setIsOpen(false)}>Bergabung</a>
+          <a href="/#join" className="nav-cta" onClick={() => setIsOpen(false)}>Bergabung</a>
         </li>
       </ul>
     </nav>

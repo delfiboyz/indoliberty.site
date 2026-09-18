@@ -42,7 +42,7 @@ export default function Join() {
       </h2>
       <p className="join-text">
         Langganan newsletter kami dan dapatkan analisis kebijakan terbaru,
-        jadwal diskusi, dan bacaan terpilih — langsung ke kotak masuk kamu.
+        jadwal diskusi, dan bacaan terpilih, langsung ke kotak masuk kamu.
       </p>
       
       <form onSubmit={handleSubmit} className="join-form">

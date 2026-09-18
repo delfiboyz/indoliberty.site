@@ -7,7 +7,7 @@ export default function PilarValues() {
           Empat Pilar<br />yang Kami<br />Perjuangkan
         </h2>
         <p className="values-note">
-          Bukan sekadar slogan — ini prinsip yang memandu setiap diskusi,
+          Bukan sekadar slogan. Ini prinsip yang memandu setiap diskusi,
           analisis, dan gerakan kami sejak hari pertama.
         </p>
       </div>
@@ -17,7 +17,7 @@ export default function PilarValues() {
           <div className="val-num">01</div>
           <div className="val-name">Kebebasan Individu</div>
           <p className="val-desc">
-            Setiap manusia memiliki hak atas dirinya sendiri — atas tubuh,
+            Setiap manusia memiliki hak atas dirinya sendiri: atas tubuh,
             pikiran, dan pilihan hidupnya. Tidak ada otoritas yang berhak
             mengambil alih itu tanpa persetujuan.
           </p>
@@ -47,7 +47,7 @@ export default function PilarValues() {
           <div className="val-num">04</div>
           <div className="val-name">Supremasi Hukum</div>
           <p className="val-desc">
-            Hukum yang adil berlaku sama untuk semua — rakyat biasa maupun
+            Hukum yang adil berlaku sama untuk semua: rakyat biasa maupun
             pejabat. Tanpa prinsip ini, kebebasan hanyalah kata tanpa makna yang
             nyata.
           </p>

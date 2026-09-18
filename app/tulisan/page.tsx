@@ -11,7 +11,7 @@ export default function Tulisan() {
     <main style={{ background: 'var(--black)', minHeight: '100vh', paddingTop: '120px' }}>
 
       {/* Header */}
-      <section style={{ padding: '80px 72px 64px', borderBottom: '1px solid rgba(250,250,247,0.07)', textAlign: 'center' }}>
+      <section className="subpage-header-center">
         <div style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '24px' }}>
           Konten
         </div>
@@ -27,13 +27,13 @@ export default function Tulisan() {
         >
           <em style={{ fontStyle: 'italic', color: 'var(--gold)' }}>Tulisan</em> Kami
         </h1>
-        <p style={{ marginTop: '24px', fontSize: '16px', lineHeight: 1.8, color: 'rgba(250,250,247,0.45)', maxWidth: '520px', margin: '24px auto 0' }}>
+        <p style={{ marginTop: '24px', fontSize: '16px', lineHeight: 1.8, color: 'rgba(250,250,247,0.55)', maxWidth: '520px', margin: '24px auto 0' }}>
           Esai, analisis, dan gagasan dari anggota Indonesian Liberty Society tentang kebebasan, pasar, dan peran negara.
         </p>
       </section>
 
       {/* List */}
-      <section style={{ padding: '64px 72px 120px' }}>
+      <section className="subpage-section">
         <TulisanList />
       </section>
     </main>

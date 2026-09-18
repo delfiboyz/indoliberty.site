@@ -6,7 +6,7 @@ export default function Programs() {
         <div className="section-label">Program & Kegiatan</div>
         <h2 className="prog-title">Ide-ide yang<br />Kami Hidupkan</h2>
         <p className="prog-sub">
-          Dari diskusi intim hingga publikasi yang tajam — kami membangun
+          Dari diskusi intim hingga publikasi yang tajam, kami membangun
           ekosistem pengetahuan kebebasan di Indonesia.
         </p>
       </div>
@@ -19,20 +19,17 @@ export default function Programs() {
             publik dari perspektif kebebasan. Terbuka untuk siapa pun yang ingin
             berpikir lebih dalam.
           </p>
-          <a href="#" className="prog-link">
-            Lihat Jadwal <span className="arrow">→</span>
-          </a>
         </div>
         <div className="prog-card">
           <span className="prog-tag">Publikasi</span>
           <h3>Analisis Kebijakan</h3>
           <p>
             Tulisan dan analisis mendalam tentang isu ekonomi dan politik
-            Indonesia — dari regulasi ojek online hingga kebijakan fiskal — dari
+            Indonesia, dari regulasi ojek online hingga kebijakan fiskal, dari
             sudut pandang liberal klasik.
           </p>
-          <a href="#" className="prog-link">
-            Baca Artikel <span className="arrow">→</span>
+          <a href="/tulisan" className="prog-link">
+            Baca Artikel
           </a>
         </div>
         <div className="prog-card">
@@ -40,7 +37,7 @@ export default function Programs() {
           <h3>Konten & Kampanye</h3>
           <p>
             Konten yang mudah dicerna tentang ide-ide kebebasan: infografis
-            tajam, analisis singkat, dan meme yang mengkritisi statisme —
+            tajam, analisis singkat, dan meme yang mengkritisi statisme,
             menjangkau jutaan orang Indonesia.
           </p>
           <a
@@ -57,18 +54,18 @@ export default function Programs() {
           <h3>Rekomendasi Bacaan</h3>
           <p>
             Kurasi bacaan esensial tentang libertarianisme dan liberalisme
-            klasik — dari Hayek, Friedman, Bastiat hingga pemikir lokal yang
+            klasik, dari Hayek, Friedman, Bastiat hingga pemikir lokal yang
             relevan untuk konteks Indonesia.
           </p>
-          <a href="#" className="prog-link">
-            Eksplorasi Bacaan <span className="arrow">→</span>
+          <a href="/peta-baca" className="prog-link">
+            Buka Peta Baca <span className="arrow">→</span>
           </a>
         </div>
         <div className="prog-card">
           <span className="prog-tag">Jaringan</span>
           <h3>Komunitas & Networking</h3>
           <p>
-            Terhubung dengan ratusan anggota yang berpikiran sama — mahasiswa,
+            Terhubung dengan ratusan anggota yang berpikiran sama: mahasiswa,
             profesional, akademisi, dan wirausahawan yang percaya pada kekuatan
             kebebasan dan pasar bebas.
           </p>
@@ -81,12 +78,9 @@ export default function Programs() {
           <h3>Policy Brief & Riset</h3>
           <p>
             Rekomendasi kebijakan berbasis bukti untuk mendorong reformasi yang
-            memperluas kebebasan ekonomi dan sipil di Indonesia — terinspirasi
+            memperluas kebebasan ekonomi dan sipil di Indonesia, terinspirasi
             dari lembaga terbaik global.
           </p>
-          <a href="#" className="prog-link">
-            Unduh Policy Brief <span className="arrow">→</span>
-          </a>
         </div>
       </div>
     </section>

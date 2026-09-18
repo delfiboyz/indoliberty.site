@@ -14,7 +14,7 @@ export default function Hero() {
         <p className="hero-lead">
           Komunitas pemikir, pelajar, dan profesional Indonesia yang
           memperjuangkan kebebasan individu, pasar bebas, dan pemerintahan yang
-          terbatas — sejak 2024.
+          terbatas, sejak 2024.
         </p>
         <div className="hero-actions">
           <a href="#join" className="btn-gold">Gabung Komunitas <span>→</span></a>

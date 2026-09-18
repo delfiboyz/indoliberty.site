@@ -157,6 +157,7 @@ h1, h2 {
         position: relative;
         overflow: hidden;
       }
+      /* structural texture: reinforces the ordered/rule-of-law brand theme at 4% opacity — intentionally subliminal */
       .hero-bg-grid {
         position: absolute;
         inset: 0;
@@ -465,7 +466,7 @@ h1, h2 {
       }
       .values-note {
         font-size: 14px;
-        color: rgba(250, 250, 247, 0.4);
+        color: rgba(250, 250, 247, 0.55);
         max-width: 300px;
         line-height: 1.7;
         text-align: right;
@@ -505,7 +506,7 @@ h1, h2 {
       .val-desc {
         font-size: 14px;
         line-height: 1.75;
-        color: rgba(250, 250, 247, 0.45);
+        color: rgba(250, 250, 247, 0.6);
       }
       .val-bar {
         position: absolute;
@@ -726,6 +727,8 @@ h1, h2 {
       }
       .join-input:focus {
         border-color: var(--gold);
+        outline: 2px solid var(--gold);
+        outline-offset: 0;
       }
       .join-socials {
         display: flex;
@@ -783,7 +786,7 @@ h1, h2 {
       .ft-desc {
         font-size: 13px;
         line-height: 1.75;
-        color: rgba(250, 250, 247, 0.35);
+        color: rgba(250, 250, 247, 0.5);
         max-width: 280px;
       }
       .ft-col h4 {
@@ -791,7 +794,7 @@ h1, h2 {
         font-weight: 700;
         letter-spacing: 0.18em;
         text-transform: uppercase;
-        color: rgba(250, 250, 247, 0.35);
+        color: rgba(250, 250, 247, 0.5);
         margin-bottom: 22px;
       }
       .ft-col ul {
@@ -820,7 +823,7 @@ h1, h2 {
       }
       .ft-copy {
         font-size: 12px;
-        color: rgba(250, 250, 247, 0.25);
+        color: rgba(250, 250, 247, 0.45);
       }
       .ft-motto {
         font-family: "Cormorant Garamond", serif;
@@ -991,6 +994,54 @@ h1, h2 {
         }
       }
 
+      .visi-grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 80px;
+        align-items: start;
+      }
+      .misi-visi-section {
+        padding: 96px 72px;
+        border-bottom: 1px solid rgba(250,250,247,0.07);
+      }
+      .misi-section {
+        padding: 96px 72px 120px;
+      }
+      @media (max-width: 900px) {
+        .misi-visi-section,
+        .misi-section {
+          padding-left: 32px;
+          padding-right: 32px;
+          padding-top: 64px;
+        }
+        .visi-grid {
+          grid-template-columns: 1fr;
+          gap: 32px;
+        }
+      }
+
+      /* ── SUB-PAGE LAYOUTS ── */
+      .subpage-header {
+        padding: 80px 72px 64px;
+        border-bottom: 1px solid rgba(250,250,247,0.07);
+      }
+      .subpage-header-center {
+        padding: 80px 72px 64px;
+        border-bottom: 1px solid rgba(250,250,247,0.07);
+        text-align: center;
+      }
+      .subpage-section {
+        padding: 64px 72px 120px;
+      }
+      @media (max-width: 900px) {
+        .subpage-header,
+        .subpage-header-center,
+        .subpage-section {
+          padding-left: 32px;
+          padding-right: 32px;
+        }
+      }
+
       /* ── TULISAN ── */
       .tulisan-grid {
         display: grid;
@@ -1031,7 +1082,7 @@ h1, h2 {
       .tulisan-ringkasan {
         font-size: 14px;
         line-height: 1.75;
-        color: rgba(250, 250, 247, 0.45);
+        color: rgba(250, 250, 247, 0.6);
       }
       .tulisan-penulis {
         font-size: 11px;
@@ -1136,7 +1187,7 @@ h1, h2 {
       .isu-summary {
         font-size: 13px;
         line-height: 1.8;
-        color: rgba(250, 250, 247, 0.4);
+        color: rgba(250, 250, 247, 0.55);
         margin-bottom: 24px;
         flex: 1;
       }
